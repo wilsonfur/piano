@@ -1,24 +1,247 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13122.16" systemVersion="17A277" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="13771" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="landscape">
+        <adaptation id="fullscreen"/>
+    </device>
     <dependencies>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13104.12"/>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="13772"/>
         <capability name="Safe area layout guides" minToolsVersion="9.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
+    <customFonts key="customFonts">
+        <array key="GurmukhiMN.ttc">
+            <string>GurmukhiMN-Bold</string>
+        </array>
+    </customFonts>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="piano" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
-                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <rect key="frame" x="0.0" y="0.0" width="667" height="375"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="piano.png" translatesAutoresizingMaskIntoConstraints="NO" id="j6M-XN-mED">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375.5"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="I0u-tD-EIv">
+                                <rect key="frame" x="0.0" y="0.0" width="667" height="375.5"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleAspectFit" semanticContentAttribute="playback" placeholderIntrinsicWidth="568" placeholderIntrinsicHeight="200" distribution="fillEqually" alignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="mak-HD-Ktn">
+                                        <rect key="frame" x="0.0" y="175.5" width="667" height="200"/>
+                                        <subviews>
+                                            <button opaque="NO" contentMode="scaleAspectFit" placeholderIntrinsicWidth="95.5" placeholderIntrinsicHeight="250" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="B8m-0Y-I3f">
+                                                <rect key="frame" x="0.0" y="0.0" width="95.5" height="200"/>
+                                                <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="8VF-HE-wtP"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="31"/>
+                                                <state key="normal" title="Do">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="KeyDo:" destination="BYZ-38-t0r" eventType="touchDown" id="Gl9-48-9NT"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" placeholderIntrinsicWidth="95" placeholderIntrinsicHeight="250" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wc1-Df-chm">
+                                                <rect key="frame" x="95.5" y="0.0" width="95" height="200"/>
+                                                <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="VqK-s3-zaR"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="31"/>
+                                                <state key="normal" title="Re">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="KeyRe:" destination="BYZ-38-t0r" eventType="touchDown" id="wDX-zW-e7x"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" placeholderIntrinsicWidth="95.5" placeholderIntrinsicHeight="250" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Byn-sX-0jS">
+                                                <rect key="frame" x="190.5" y="0.0" width="95.5" height="200"/>
+                                                <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="MCx-Yc-nE5"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="31"/>
+                                                <state key="normal" title="Mi">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="KeyMi:" destination="BYZ-38-t0r" eventType="touchDown" id="kEi-Ln-JNJ"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" placeholderIntrinsicWidth="95" placeholderIntrinsicHeight="250" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="f9T-pb-BWh">
+                                                <rect key="frame" x="286" y="0.0" width="95" height="200"/>
+                                                <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="wy8-lQ-khN"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="31"/>
+                                                <state key="normal" title="Fa">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="KeyFa:" destination="BYZ-38-t0r" eventType="touchDown" id="Na1-va-69s"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" placeholderIntrinsicWidth="95.5" placeholderIntrinsicHeight="250" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WoP-Ps-wVw">
+                                                <rect key="frame" x="381" y="0.0" width="95.5" height="200"/>
+                                                <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="STm-7g-jFU"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="31"/>
+                                                <state key="normal" title="Sol">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="KeySol:" destination="BYZ-38-t0r" eventType="touchDown" id="5pf-rg-Jwj"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" placeholderIntrinsicWidth="95" placeholderIntrinsicHeight="250" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="nhJ-4U-dHg">
+                                                <rect key="frame" x="476.5" y="0.0" width="95" height="200"/>
+                                                <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="zr9-y9-VsX"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="31"/>
+                                                <state key="normal" title="La">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="KeyLa:" destination="BYZ-38-t0r" eventType="touchDown" id="vjy-Dg-bW2"/>
+                                                </connections>
+                                            </button>
+                                            <button opaque="NO" contentMode="scaleAspectFit" placeholderIntrinsicWidth="95.5" placeholderIntrinsicHeight="250" insetsLayoutMarginsFromSafeArea="NO" contentHorizontalAlignment="center" contentVerticalAlignment="bottom" buttonType="roundedRect" adjustsImageSizeForAccessibilityContentSizeCategory="YES" adjustsImageWhenHighlighted="NO" adjustsImageWhenDisabled="NO" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="EWJ-UN-16Z">
+                                                <rect key="frame" x="571.5" y="0.0" width="95.5" height="200"/>
+                                                <color key="backgroundColor" red="0.094117647060000004" green="0.094117647060000004" blue="0.094117647060000004" alpha="0.0" colorSpace="custom" customColorSpace="sRGB"/>
+                                                <constraints>
+                                                    <constraint firstAttribute="height" constant="200" id="4VD-oz-OF1"/>
+                                                </constraints>
+                                                <fontDescription key="fontDescription" name="GurmukhiMN-Bold" family="Gurmukhi MN" pointSize="31"/>
+                                                <state key="normal" title="Si">
+                                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                </state>
+                                                <connections>
+                                                    <action selector="KeySi:" destination="BYZ-38-t0r" eventType="touchDown" id="PTc-gW-XdS"/>
+                                                </connections>
+                                            </button>
+                                        </subviews>
+                                        <constraints>
+                                            <constraint firstAttribute="bottom" secondItem="WoP-Ps-wVw" secondAttribute="bottom" id="EMb-ad-bZL"/>
+                                            <constraint firstAttribute="bottom" secondItem="B8m-0Y-I3f" secondAttribute="bottom" id="Fut-ZX-eS9"/>
+                                            <constraint firstAttribute="bottom" secondItem="Byn-sX-0jS" secondAttribute="bottom" id="G17-lg-MJC"/>
+                                            <constraint firstAttribute="bottom" secondItem="f9T-pb-BWh" secondAttribute="bottom" id="Xvn-HA-UVz"/>
+                                            <constraint firstAttribute="bottom" secondItem="nhJ-4U-dHg" secondAttribute="bottom" id="dPb-lY-tJj"/>
+                                            <constraint firstAttribute="bottom" secondItem="wc1-Df-chm" secondAttribute="bottom" id="sHS-Yr-4Tn"/>
+                                            <constraint firstAttribute="bottom" secondItem="EWJ-UN-16Z" secondAttribute="bottom" id="uxK-E5-xO3"/>
+                                        </constraints>
+                                    </stackView>
+                                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="1.png" translatesAutoresizingMaskIntoConstraints="NO" id="Z67-F8-TDL">
+                                        <rect key="frame" x="50" y="20.5" width="90" height="90"/>
+                                        <constraints>
+                                            <constraint firstAttribute="width" constant="90" id="StA-Tp-LGJ"/>
+                                            <constraint firstAttribute="height" constant="90" id="Zpd-Qk-ag3"/>
+                                        </constraints>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="layer.cornerRadius">
+                                                <integer key="value" value="45"/>
+                                            </userDefinedRuntimeAttribute>
+                                        </userDefinedRuntimeAttributes>
+                                    </imageView>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="ZaL-Ol-ejY">
+                                        <rect key="frame" x="598" y="20.5" width="51" height="31"/>
+                                        <color key="onTintColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="thumbTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <action selector="TipsSwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="382-S6-v70"/>
+                                        </connections>
+                                    </switch>
+                                    <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" translatesAutoresizingMaskIntoConstraints="NO" id="oau-qW-ZGb">
+                                        <rect key="frame" x="598" y="71.5" width="51" height="31"/>
+                                        <color key="onTintColor" red="0.45009386540000001" green="0.98132258650000004" blue="0.4743030667" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                        <color key="thumbTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <connections>
+                                            <action selector="KeySwitch:" destination="BYZ-38-t0r" eventType="valueChanged" id="53r-PW-nEB"/>
+                                        </connections>
+                                    </switch>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="42" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hgh-tZ-T44">
+                                        <rect key="frame" x="170" y="40.5" width="59.5" height="60"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="50"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="提示開關" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="SOm-qQ-xkK">
+                                        <rect key="frame" x="521" y="25.5" width="69.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                    <label opaque="NO" userInteractionEnabled="NO" alpha="0.80000000000000004" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="音符開關" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2YA-Zu-acl">
+                                        <rect key="frame" x="521" y="76" width="69.5" height="20.5"/>
+                                        <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="oau-qW-ZGb" secondAttribute="trailing" constant="20" id="2a4-n5-hbi"/>
+                                    <constraint firstItem="SOm-qQ-xkK" firstAttribute="top" secondItem="I0u-tD-EIv" secondAttribute="top" constant="25" id="5y7-yM-nkC"/>
+                                    <constraint firstItem="ZaL-Ol-ejY" firstAttribute="leading" secondItem="SOm-qQ-xkK" secondAttribute="trailing" constant="8" id="B1b-bC-dkB"/>
+                                    <constraint firstItem="hgh-tZ-T44" firstAttribute="top" secondItem="I0u-tD-EIv" secondAttribute="top" constant="40" id="Bju-qa-udt"/>
+                                    <constraint firstItem="mak-HD-Ktn" firstAttribute="centerX" secondItem="I0u-tD-EIv" secondAttribute="centerX" id="RyX-rj-bQQ"/>
+                                    <constraint firstItem="2YA-Zu-acl" firstAttribute="top" secondItem="SOm-qQ-xkK" secondAttribute="bottom" constant="30.5" id="ZfJ-he-aew"/>
+                                    <constraint firstItem="hgh-tZ-T44" firstAttribute="leading" secondItem="Z67-F8-TDL" secondAttribute="trailing" constant="30" id="a7T-Bf-ePK"/>
+                                    <constraint firstAttribute="bottom" secondItem="mak-HD-Ktn" secondAttribute="bottom" id="bbD-hu-FGp"/>
+                                    <constraint firstAttribute="trailing" secondItem="mak-HD-Ktn" secondAttribute="trailing" id="bws-L1-sDf"/>
+                                    <constraint firstItem="oau-qW-ZGb" firstAttribute="leading" secondItem="2YA-Zu-acl" secondAttribute="trailing" constant="8" id="de8-NQ-dz0"/>
+                                    <constraint firstAttribute="trailing" secondItem="ZaL-Ol-ejY" secondAttribute="trailing" constant="20" id="i2D-3b-m6R"/>
+                                    <constraint firstItem="mak-HD-Ktn" firstAttribute="leading" secondItem="I0u-tD-EIv" secondAttribute="leading" id="iLT-HZ-PYp"/>
+                                    <constraint firstItem="Z67-F8-TDL" firstAttribute="top" secondItem="I0u-tD-EIv" secondAttribute="top" constant="20" id="js1-kH-2No"/>
+                                    <constraint firstItem="oau-qW-ZGb" firstAttribute="top" secondItem="ZaL-Ol-ejY" secondAttribute="bottom" constant="20" id="l22-T8-JQg"/>
+                                    <constraint firstItem="mak-HD-Ktn" firstAttribute="top" secondItem="I0u-tD-EIv" secondAttribute="top" constant="175" id="rEv-nU-yb1"/>
+                                    <constraint firstItem="Z67-F8-TDL" firstAttribute="leading" secondItem="I0u-tD-EIv" secondAttribute="leading" constant="50" id="toN-sM-L0f"/>
+                                    <constraint firstItem="ZaL-Ol-ejY" firstAttribute="top" secondItem="I0u-tD-EIv" secondAttribute="top" constant="20" id="yvk-hl-oPF"/>
+                                </constraints>
+                            </view>
+                        </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="j6M-XN-mED" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="87e-lD-g2h"/>
+                            <constraint firstItem="I0u-tD-EIv" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="U89-1O-dbx"/>
+                            <constraint firstItem="j6M-XN-mED" firstAttribute="trailing" secondItem="6Tk-OE-BBY" secondAttribute="trailing" id="dyy-0d-1pM"/>
+                            <constraint firstItem="j6M-XN-mED" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="iWK-gR-wCx"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="I0u-tD-EIv" secondAttribute="trailing" id="j2e-6G-B7U"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="I0u-tD-EIv" secondAttribute="bottom" id="llQ-Sj-hxo"/>
+                            <constraint firstItem="I0u-tD-EIv" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="pWJ-zV-xcd"/>
+                            <constraint firstItem="j6M-XN-mED" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" id="stu-TD-H3C"/>
+                        </constraints>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                     </view>
+                    <connections>
+                        <outlet property="DoUI" destination="B8m-0Y-I3f" id="RMY-Cj-Wsv"/>
+                        <outlet property="FaUI" destination="f9T-pb-BWh" id="TA6-zs-Vfm"/>
+                        <outlet property="InputCountLabel" destination="hgh-tZ-T44" id="3yW-a0-GNi"/>
+                        <outlet property="LaUI" destination="nhJ-4U-dHg" id="WyB-h5-gfQ"/>
+                        <outlet property="MiUI" destination="Byn-sX-0jS" id="oeL-uB-H93"/>
+                        <outlet property="ReUI" destination="wc1-Df-chm" id="ecZ-3T-gd1"/>
+                        <outlet property="SiUI" destination="EWJ-UN-16Z" id="29j-zo-JoL"/>
+                        <outlet property="SolUI" destination="WoP-Ps-wVw" id="g8e-2v-iei"/>
+                        <outlet property="TipsImageView" destination="Z67-F8-TDL" id="pkg-2t-Qen"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="134.1796875" y="128.125"/>
         </scene>
     </scenes>
+    <resources>
+        <image name="1.png" width="76" height="78"/>
+        <image name="piano.png" width="667" height="375"/>
+    </resources>
 </document>

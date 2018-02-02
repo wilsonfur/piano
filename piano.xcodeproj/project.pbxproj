@@ -7,14 +7,52 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		C825CBF32022BC6800EF2239 /* piano@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C825CBF22022BC6800EF2239 /* piano@2x.png */; };
+		C85C8D7B2021BE180015DE8E /* SoundTips.swift in Sources */ = {isa = PBXBuildFile; fileRef = C85C8D7A2021BE180015DE8E /* SoundTips.swift */; };
+		C8916741202194670023383A /* PlayPiano.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8916740202194670023383A /* PlayPiano.swift */; };
 		C8B01A6D2019B1E900B9D6F4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B01A6C2019B1E900B9D6F4 /* AppDelegate.swift */; };
 		C8B01A6F2019B1E900B9D6F4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8B01A6E2019B1E900B9D6F4 /* ViewController.swift */; };
 		C8B01A722019B1E900B9D6F4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B01A702019B1E900B9D6F4 /* Main.storyboard */; };
 		C8B01A742019B1E900B9D6F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C8B01A732019B1E900B9D6F4 /* Assets.xcassets */; };
 		C8B01A772019B1E900B9D6F4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C8B01A752019B1E900B9D6F4 /* LaunchScreen.storyboard */; };
+		C8B01A852019B37D00B9D6F4 /* pianoF.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8B01A7E2019B37D00B9D6F4 /* pianoF.mp3 */; };
+		C8B01A862019B37D00B9D6F4 /* pianoG.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8B01A7F2019B37D00B9D6F4 /* pianoG.mp3 */; };
+		C8B01A872019B37D00B9D6F4 /* pianoC.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8B01A802019B37D00B9D6F4 /* pianoC.mp3 */; };
+		C8B01A882019B37D00B9D6F4 /* pianoD.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8B01A812019B37D00B9D6F4 /* pianoD.mp3 */; };
+		C8B01A892019B37D00B9D6F4 /* pianoA.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8B01A822019B37D00B9D6F4 /* pianoA.mp3 */; };
+		C8B01A8A2019B37D00B9D6F4 /* pianoB.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8B01A832019B37D00B9D6F4 /* pianoB.mp3 */; };
+		C8B01A8B2019B37D00B9D6F4 /* pianoE.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8B01A842019B37D00B9D6F4 /* pianoE.mp3 */; };
+		C8B01A8E2019B8A300B9D6F4 /* pianoC2.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8B01A8D2019B8A300B9D6F4 /* pianoC2.mp3 */; };
+		C8B01A902019B8B500B9D6F4 /* Mozart1.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = C8B01A8F2019B8B500B9D6F4 /* Mozart1.mp3 */; };
+		C8D8295C2022FEE70090D7AF /* 4@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D8294E2022FEE60090D7AF /* 4@3x.png */; };
+		C8D8295D2022FEE70090D7AF /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D8294F2022FEE60090D7AF /* 5.png */; };
+		C8D8295E2022FEE70090D7AF /* 5@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D829502022FEE60090D7AF /* 5@2x.png */; };
+		C8D8295F2022FEE70090D7AF /* 7@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D829512022FEE60090D7AF /* 7@2x.png */; };
+		C8D829602022FEE70090D7AF /* 6@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D829522022FEE60090D7AF /* 6@2x.png */; };
+		C8D829612022FEE70090D7AF /* 2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D829532022FEE60090D7AF /* 2@3x.png */; };
+		C8D829622022FEE70090D7AF /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D829542022FEE60090D7AF /* 6.png */; };
+		C8D829632022FEE70090D7AF /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D829552022FEE60090D7AF /* 1.png */; };
+		C8D829642022FEE70090D7AF /* 6@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D829562022FEE70090D7AF /* 6@3x.png */; };
+		C8D829652022FEE70090D7AF /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D829572022FEE70090D7AF /* 2.png */; };
+		C8D829662022FEE70090D7AF /* 1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D829582022FEE70090D7AF /* 1@3x.png */; };
+		C8D829672022FEE70090D7AF /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D829592022FEE70090D7AF /* 4.png */; };
+		C8D829682022FEE70090D7AF /* 4@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D8295A2022FEE70090D7AF /* 4@2x.png */; };
+		C8D829692022FEE70090D7AF /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D8295B2022FEE70090D7AF /* 7.png */; };
+		C8D829712022FF230090D7AF /* 3@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D8296A2022FF220090D7AF /* 3@2x.png */; };
+		C8D829722022FF230090D7AF /* 2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D8296B2022FF220090D7AF /* 2@2x.png */; };
+		C8D829732022FF230090D7AF /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D8296C2022FF220090D7AF /* 3.png */; };
+		C8D829742022FF230090D7AF /* 3@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D8296D2022FF220090D7AF /* 3@3x.png */; };
+		C8D829752022FF230090D7AF /* 7@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D8296E2022FF220090D7AF /* 7@3x.png */; };
+		C8D829762022FF230090D7AF /* 1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D8296F2022FF230090D7AF /* 1@2x.png */; };
+		C8D829772022FF230090D7AF /* 5@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D829702022FF230090D7AF /* 5@3x.png */; };
+		C8D8297D202304AE0090D7AF /* launchscreen.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D8297C202304AE0090D7AF /* launchscreen.png */; };
+		C8D8297F20230DFC0090D7AF /* appicon.png in Resources */ = {isa = PBXBuildFile; fileRef = C8D8297E20230DFC0090D7AF /* appicon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		C825CBF22022BC6800EF2239 /* piano@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "piano@2x.png"; path = "../../../../../../../Desktop/untitled folder/piano@2x.png"; sourceTree = "<group>"; };
+		C85C8D7A2021BE180015DE8E /* SoundTips.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SoundTips.swift; sourceTree = "<group>"; };
+		C8916740202194670023383A /* PlayPiano.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayPiano.swift; sourceTree = "<group>"; };
 		C8B01A692019B1E900B9D6F4 /* piano.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = piano.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		C8B01A6C2019B1E900B9D6F4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		C8B01A6E2019B1E900B9D6F4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -22,6 +60,38 @@
 		C8B01A732019B1E900B9D6F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		C8B01A762019B1E900B9D6F4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		C8B01A782019B1E900B9D6F4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C8B01A7E2019B37D00B9D6F4 /* pianoF.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pianoF.mp3; sourceTree = "<group>"; };
+		C8B01A7F2019B37D00B9D6F4 /* pianoG.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pianoG.mp3; sourceTree = "<group>"; };
+		C8B01A802019B37D00B9D6F4 /* pianoC.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pianoC.mp3; sourceTree = "<group>"; };
+		C8B01A812019B37D00B9D6F4 /* pianoD.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pianoD.mp3; sourceTree = "<group>"; };
+		C8B01A822019B37D00B9D6F4 /* pianoA.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pianoA.mp3; sourceTree = "<group>"; };
+		C8B01A832019B37D00B9D6F4 /* pianoB.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pianoB.mp3; sourceTree = "<group>"; };
+		C8B01A842019B37D00B9D6F4 /* pianoE.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pianoE.mp3; sourceTree = "<group>"; };
+		C8B01A8D2019B8A300B9D6F4 /* pianoC2.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = pianoC2.mp3; sourceTree = "<group>"; };
+		C8B01A8F2019B8B500B9D6F4 /* Mozart1.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = Mozart1.mp3; sourceTree = "<group>"; };
+		C8D8294E2022FEE60090D7AF /* 4@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4@3x.png"; path = "../../../../../../../Desktop/untitled folder/4@3x.png"; sourceTree = "<group>"; };
+		C8D8294F2022FEE60090D7AF /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = "../../../../../../../Desktop/untitled folder/5.png"; sourceTree = "<group>"; };
+		C8D829502022FEE60090D7AF /* 5@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "5@2x.png"; path = "../../../../../../../Desktop/untitled folder/5@2x.png"; sourceTree = "<group>"; };
+		C8D829512022FEE60090D7AF /* 7@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "7@2x.png"; path = "../../../../../../../Desktop/untitled folder/7@2x.png"; sourceTree = "<group>"; };
+		C8D829522022FEE60090D7AF /* 6@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "6@2x.png"; path = "../../../../../../../Desktop/untitled folder/6@2x.png"; sourceTree = "<group>"; };
+		C8D829532022FEE60090D7AF /* 2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "2@3x.png"; path = "../../../../../../../Desktop/untitled folder/2@3x.png"; sourceTree = "<group>"; };
+		C8D829542022FEE60090D7AF /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6.png; path = "../../../../../../../Desktop/untitled folder/6.png"; sourceTree = "<group>"; };
+		C8D829552022FEE60090D7AF /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = "../../../../../../../Desktop/untitled folder/1.png"; sourceTree = "<group>"; };
+		C8D829562022FEE70090D7AF /* 6@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "6@3x.png"; path = "../../../../../../../Desktop/untitled folder/6@3x.png"; sourceTree = "<group>"; };
+		C8D829572022FEE70090D7AF /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = "../../../../../../../Desktop/untitled folder/2.png"; sourceTree = "<group>"; };
+		C8D829582022FEE70090D7AF /* 1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1@3x.png"; path = "../../../../../../../Desktop/untitled folder/1@3x.png"; sourceTree = "<group>"; };
+		C8D829592022FEE70090D7AF /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = "../../../../../../../Desktop/untitled folder/4.png"; sourceTree = "<group>"; };
+		C8D8295A2022FEE70090D7AF /* 4@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "4@2x.png"; path = "../../../../../../../Desktop/untitled folder/4@2x.png"; sourceTree = "<group>"; };
+		C8D8295B2022FEE70090D7AF /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7.png; path = "../../../../../../../Desktop/untitled folder/7.png"; sourceTree = "<group>"; };
+		C8D8296A2022FF220090D7AF /* 3@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3@2x.png"; sourceTree = "<group>"; };
+		C8D8296B2022FF220090D7AF /* 2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "2@2x.png"; sourceTree = "<group>"; };
+		C8D8296C2022FF220090D7AF /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3.png; sourceTree = "<group>"; };
+		C8D8296D2022FF220090D7AF /* 3@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "3@3x.png"; sourceTree = "<group>"; };
+		C8D8296E2022FF220090D7AF /* 7@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "7@3x.png"; sourceTree = "<group>"; };
+		C8D8296F2022FF230090D7AF /* 1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "1@2x.png"; path = "../../../../../../../Desktop/untitled folder/1@2x.png"; sourceTree = "<group>"; };
+		C8D829702022FF230090D7AF /* 5@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "5@3x.png"; sourceTree = "<group>"; };
+		C8D8297C202304AE0090D7AF /* launchscreen.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = launchscreen.png; sourceTree = "<group>"; };
+		C8D8297E20230DFC0090D7AF /* appicon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -35,6 +105,37 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		C85C8D9F2021C81B0015DE8E /* images */ = {
+			isa = PBXGroup;
+			children = (
+				C8D8297E20230DFC0090D7AF /* appicon.png */,
+				C8D8297C202304AE0090D7AF /* launchscreen.png */,
+				C8D8296F2022FF230090D7AF /* 1@2x.png */,
+				C8D8296B2022FF220090D7AF /* 2@2x.png */,
+				C8D8296C2022FF220090D7AF /* 3.png */,
+				C8D8296A2022FF220090D7AF /* 3@2x.png */,
+				C8D8296D2022FF220090D7AF /* 3@3x.png */,
+				C8D829702022FF230090D7AF /* 5@3x.png */,
+				C8D8296E2022FF220090D7AF /* 7@3x.png */,
+				C8D829552022FEE60090D7AF /* 1.png */,
+				C8D829582022FEE70090D7AF /* 1@3x.png */,
+				C8D829572022FEE70090D7AF /* 2.png */,
+				C8D829532022FEE60090D7AF /* 2@3x.png */,
+				C8D829592022FEE70090D7AF /* 4.png */,
+				C8D8295A2022FEE70090D7AF /* 4@2x.png */,
+				C8D8294E2022FEE60090D7AF /* 4@3x.png */,
+				C8D8294F2022FEE60090D7AF /* 5.png */,
+				C8D829502022FEE60090D7AF /* 5@2x.png */,
+				C8D829542022FEE60090D7AF /* 6.png */,
+				C8D829522022FEE60090D7AF /* 6@2x.png */,
+				C8D829562022FEE70090D7AF /* 6@3x.png */,
+				C8D8295B2022FEE70090D7AF /* 7.png */,
+				C8D829512022FEE60090D7AF /* 7@2x.png */,
+				C825CBF22022BC6800EF2239 /* piano@2x.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		C8B01A602019B1E900B9D6F4 = {
 			isa = PBXGroup;
 			children = (
@@ -56,12 +157,32 @@
 			children = (
 				C8B01A6C2019B1E900B9D6F4 /* AppDelegate.swift */,
 				C8B01A6E2019B1E900B9D6F4 /* ViewController.swift */,
+				C8916740202194670023383A /* PlayPiano.swift */,
+				C85C8D7A2021BE180015DE8E /* SoundTips.swift */,
 				C8B01A702019B1E900B9D6F4 /* Main.storyboard */,
-				C8B01A732019B1E900B9D6F4 /* Assets.xcassets */,
 				C8B01A752019B1E900B9D6F4 /* LaunchScreen.storyboard */,
+				C8B01A732019B1E900B9D6F4 /* Assets.xcassets */,
+				C85C8D9F2021C81B0015DE8E /* images */,
 				C8B01A782019B1E900B9D6F4 /* Info.plist */,
+				C8B01A8C2019B38A00B9D6F4 /* sound */,
 			);
 			path = piano;
+			sourceTree = "<group>";
+		};
+		C8B01A8C2019B38A00B9D6F4 /* sound */ = {
+			isa = PBXGroup;
+			children = (
+				C8B01A822019B37D00B9D6F4 /* pianoA.mp3 */,
+				C8B01A832019B37D00B9D6F4 /* pianoB.mp3 */,
+				C8B01A802019B37D00B9D6F4 /* pianoC.mp3 */,
+				C8B01A812019B37D00B9D6F4 /* pianoD.mp3 */,
+				C8B01A842019B37D00B9D6F4 /* pianoE.mp3 */,
+				C8B01A7E2019B37D00B9D6F4 /* pianoF.mp3 */,
+				C8B01A7F2019B37D00B9D6F4 /* pianoG.mp3 */,
+				C8B01A8D2019B8A300B9D6F4 /* pianoC2.mp3 */,
+				C8B01A8F2019B8B500B9D6F4 /* Mozart1.mp3 */,
+			);
+			path = sound;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -123,9 +244,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8D829732022FF230090D7AF /* 3.png in Resources */,
+				C8D829752022FF230090D7AF /* 7@3x.png in Resources */,
+				C8B01A8B2019B37D00B9D6F4 /* pianoE.mp3 in Resources */,
+				C8B01A892019B37D00B9D6F4 /* pianoA.mp3 in Resources */,
+				C8B01A872019B37D00B9D6F4 /* pianoC.mp3 in Resources */,
+				C8D8295C2022FEE70090D7AF /* 4@3x.png in Resources */,
+				C8B01A8E2019B8A300B9D6F4 /* pianoC2.mp3 in Resources */,
+				C8D8295F2022FEE70090D7AF /* 7@2x.png in Resources */,
+				C8D829682022FEE70090D7AF /* 4@2x.png in Resources */,
+				C8D829602022FEE70090D7AF /* 6@2x.png in Resources */,
+				C8D829692022FEE70090D7AF /* 7.png in Resources */,
+				C8D829642022FEE70090D7AF /* 6@3x.png in Resources */,
+				C8D829672022FEE70090D7AF /* 4.png in Resources */,
+				C8B01A882019B37D00B9D6F4 /* pianoD.mp3 in Resources */,
+				C8B01A862019B37D00B9D6F4 /* pianoG.mp3 in Resources */,
+				C8D829652022FEE70090D7AF /* 2.png in Resources */,
+				C8D829762022FF230090D7AF /* 1@2x.png in Resources */,
+				C8B01A8A2019B37D00B9D6F4 /* pianoB.mp3 in Resources */,
+				C8B01A902019B8B500B9D6F4 /* Mozart1.mp3 in Resources */,
+				C8D829712022FF230090D7AF /* 3@2x.png in Resources */,
+				C8D829662022FEE70090D7AF /* 1@3x.png in Resources */,
+				C8D829772022FF230090D7AF /* 5@3x.png in Resources */,
+				C8D829742022FF230090D7AF /* 3@3x.png in Resources */,
+				C8D8295E2022FEE70090D7AF /* 5@2x.png in Resources */,
+				C8D829632022FEE70090D7AF /* 1.png in Resources */,
+				C8D8297D202304AE0090D7AF /* launchscreen.png in Resources */,
+				C8D829722022FF230090D7AF /* 2@2x.png in Resources */,
+				C825CBF32022BC6800EF2239 /* piano@2x.png in Resources */,
+				C8D8297F20230DFC0090D7AF /* appicon.png in Resources */,
+				C8D829612022FEE70090D7AF /* 2@3x.png in Resources */,
 				C8B01A772019B1E900B9D6F4 /* LaunchScreen.storyboard in Resources */,
+				C8B01A852019B37D00B9D6F4 /* pianoF.mp3 in Resources */,
+				C8D8295D2022FEE70090D7AF /* 5.png in Resources */,
 				C8B01A742019B1E900B9D6F4 /* Assets.xcassets in Resources */,
 				C8B01A722019B1E900B9D6F4 /* Main.storyboard in Resources */,
+				C8D829622022FEE70090D7AF /* 6.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -136,8 +290,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C8916741202194670023383A /* PlayPiano.swift in Sources */,
 				C8B01A6F2019B1E900B9D6F4 /* ViewController.swift in Sources */,
 				C8B01A6D2019B1E900B9D6F4 /* AppDelegate.swift in Sources */,
+				C85C8D7B2021BE180015DE8E /* SoundTips.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -278,10 +434,10 @@
 				DEVELOPMENT_TEAM = 3B9J7W4ZVP;
 				INFOPLIST_FILE = piano/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = demo.piano;
+				PRODUCT_BUNDLE_IDENTIFIER = wilsonfur.piano;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -293,10 +449,10 @@
 				DEVELOPMENT_TEAM = 3B9J7W4ZVP;
 				INFOPLIST_FILE = piano/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = demo.piano;
+				PRODUCT_BUNDLE_IDENTIFIER = wilsonfur.piano;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
